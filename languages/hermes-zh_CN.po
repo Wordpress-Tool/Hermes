@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hermes\n"
+"POT-Creation-Date: 2019-05-08 22:19+0800\n"
+"PO-Revision-Date: 2019-05-08 22:20+0800\n"
+"Last-Translator: Seaton Jiang <seaton@vtrois.com>\n"
+"Language-Team: Seaton Jiang <seaton@vtrois.com>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: hermes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: class-hermes-admin.php:7 class-hermes-admin.php:18
+msgid "Hermes Settings"
+msgstr "短信配置"
+
+#. Plugin Name of the plugin/theme
+#: class-hermes-admin.php:8
+msgid "Hermes"
+msgstr "Hermes"
+
+#: class-hermes-admin.php:23
+msgid "SDK AppID"
+msgstr "SDK AppID"
+
+#: class-hermes-admin.php:27
+msgid "App Key"
+msgstr "App Key"
+
+#: class-hermes-admin.php:31
+msgid "SMS Body Template ID"
+msgstr "短信正文模板 ID"
+
+#: class-hermes-admin.php:36
+msgid "SMS Signature"
+msgstr "短信签名"
+
+#: class-hermes-admin.php:40
+msgid "SMS validity(sec.)"
+msgstr "验证码有效期（秒）"
+
+#: class-hermes-admin.php:45
+msgid "Save changes"
+msgstr "保存设置"
+
+#: class-hermes-admin.php:71
+msgid "Success"
+msgstr "保存成功"
+
+#: class-hermes-modify.php:13 class-hermes-modify.php:70 class-hermes.php:60
+#: class-hermes.php:124
+msgid "Unauthorized access"
+msgstr "未授权访问"
+
+#: class-hermes-modify.php:19 class-hermes-modify.php:26
+msgid "<strong>ERROR</strong>: Image verification code error.<br>"
+msgstr "<strong>错误</strong>：图片验证码不正确。<br>"
+
+#: class-hermes-modify.php:24
+msgid ""
+"<strong>ERROR</strong>: Image verification code has expired, please refresh "
+"the page and try again.<br>"
+msgstr "<strong>错误</strong>：图像验证码已过期，请刷新页面重试。<br>"
+
+#: class-hermes-modify.php:34
+msgid "<strong>ERROR</strong>: Phone number wrong.<br>"
+msgstr "<strong>错误</strong>：手机号码错误。<br>"
+
+#: class-hermes-modify.php:40
+msgid "<strong>ERROR</strong>: Phone number no change.<br>"
+msgstr "<strong>错误</strong>：手机号码没有变化。<br>"
+
+#: class-hermes-modify.php:43
+msgid "<strong>ERROR</strong>: Phone number has been registered.<br>"
+msgstr "<strong>错误</strong>：手机号码已被注册。<br>"
+
+#: class-hermes-modify.php:47
+msgid "<strong>ERROR</strong>: Please enter the SMS code.<br>"
+msgstr "<strong>错误</strong>：请输入短信验证码。<br>"
+
+#: class-hermes-modify.php:51
+msgid "<strong>ERROR</strong>: Please get the SMS code.<br>"
+msgstr "<strong>错误</strong>：请获取短信验证码。<br>"
+
+#: class-hermes-modify.php:54
+msgid "<strong>ERROR</strong>: SMS code is incorrect.<br>"
+msgstr "<strong>错误</strong>：短信验证码不正确。<br>"
+
+#: class-hermes-modify.php:69 class-hermes-modify.php:115 class-hermes.php:59
+#: class-hermes.php:92
+msgid "Send Code"
+msgstr "发送验证码"
+
+#: class-hermes-modify.php:71 class-hermes.php:61
+msgid "Image verification code error"
+msgstr "图像验证码错误"
+
+#: class-hermes-modify.php:72 class-hermes.php:62
+msgid "Image authentication code expired"
+msgstr "图片验证码过期"
+
+#: class-hermes-modify.php:73 class-hermes.php:63
+msgid "Get verification code too often"
+msgstr "获取验证码的频率太高"
+
+#: class-hermes-modify.php:74 class-hermes.php:64
+msgid "Phone number wrong"
+msgstr "手机号码错误"
+
+#: class-hermes-modify.php:75 class-hermes.php:65
+msgid "Phone number has been registered"
+msgstr "手机号码已被注册"
+
+#: class-hermes-modify.php:76 class-hermes.php:66
+msgid "Phone number no change"
+msgstr "手机号码没有修改"
+
+#: class-hermes-modify.php:77 class-hermes.php:67
+msgid "Database error"
+msgstr "数据库错误"
+
+#: class-hermes-modify.php:78 class-hermes.php:68
+msgid "SMS configuration errors"
+msgstr "短信配置错误"
+
+#: class-hermes-modify.php:84 class-hermes.php:45 class-hermes.php:46
+msgid "Modify Phone Number"
+msgstr "修改手机号码"
+
+#: class-hermes-modify.php:97 class-hermes.php:90
+msgid "Phone number"
+msgstr "手机号码"
+
+#: class-hermes-modify.php:102 class-hermes.php:83
+msgid "Captcha"
+msgstr "图片验证码"
+
+#: class-hermes-modify.php:108 class-hermes-modify.php:109 class-hermes.php:84
+#: class-hermes.php:85
+msgid "Click to change"
+msgstr "看不清?点击更改"
+
+#: class-hermes-modify.php:113 class-hermes.php:96
+msgid "SMS Code"
+msgstr "短信验证码"
+
+#: class-hermes-modify.php:120
+msgid "Confirm the change"
+msgstr "确认更改"
+
+#: class-hermes.php:35
+msgid "Phone Number"
+msgstr "手机号码"
+
+#: class-hermes.php:73
+msgid "Password"
+msgstr "密码"
+
+#: class-hermes.php:78
+msgid "Confirm Password"
+msgstr "重复密码"
+
+#: class-hermes.php:128
+msgid "<strong>ERROR</strong>: Password length needs at least 6 digits."
+msgstr "<strong>错误</strong>：密码长度至少需要 6 位。"
+
+#: class-hermes.php:130
+msgid "<strong>ERROR</strong>: Password needs to be consistent."
+msgstr "<strong>错误</strong>：密码必须一致。"
+
+#: class-hermes.php:134 class-hermes.php:140
+msgid "<strong>ERROR</strong>: Image verification code error."
+msgstr "<strong>错误</strong>：图片验证码不正确。"
+
+#: class-hermes.php:138
+msgid ""
+"<strong>ERROR</strong>: Image verification code has expired, please refresh "
+"the page and try again."
+msgstr "<strong>错误</strong>：图像验证码已过期，请刷新页面重试。"
+
+#: class-hermes.php:148
+msgid "<strong>ERROR</strong>: Phone number wrong."
+msgstr "<strong>错误</strong>：手机号码错误。"
+
+#: class-hermes.php:154
+msgid "<strong>ERROR</strong>: Phone number has been registered."
+msgstr "<strong>错误</strong>：手机号码已被注册。"
+
+#: class-hermes.php:159
+msgid "<strong>ERROR</strong>: Please enter the SMS code."
+msgstr "<strong>错误</strong>：请输入短信验证码。"
+
+#: class-hermes.php:163
+msgid "<strong>ERROR</strong>: Please get the SMS code."
+msgstr "<strong>错误</strong>：请获取短信验证码。"
+
+#: class-hermes.php:165
+msgid "<strong>ERROR</strong>: SMS code is incorrect."
+msgstr "<strong>错误</strong>：短信验证码不正确。"
+
+#: class-hermes.php:286
+msgid "Registration complete"
+msgstr "注册成功"
+
+#. Plugin URI of the plugin/theme
+msgid "https://github.com/Vtrois/Hermes"
+msgstr "https://github.com/Vtrois/Hermes"
+
+#. Description of the plugin/theme
+msgid "WordPress user registration plugin based on Tencent cloud SMS"
+msgstr ""
+"基于腾讯云短信业务的用户注册插件，可以实现用户注册与修改信息的短信认证功能"
+
+#. Author of the plugin/theme
+msgid "Seaton Jiang"
+msgstr "Seaton Jiang"
+
+#. Author URI of the plugin/theme
+msgid "https://www.vtrois.com/"
+msgstr "https://www.vtrois.com/"
